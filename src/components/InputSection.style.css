@@ -1,0 +1,7 @@
+.InputSection__container {
+  width: 750px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color:rgb(95,98,100);
+}
