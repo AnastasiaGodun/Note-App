@@ -1,0 +1,12 @@
+.NoteItem__container{
+  width: 65px;
+  border: solid 1px rgb(95,98,100);
+  border-radius: 0.3cm;
+  padding: 1cm;
+  margin-bottom: 1cm;
+  margin-top: 1cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
+  cursor: pointer;
+  background-color: rgb(95,98,100);
+}
