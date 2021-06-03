@@ -1,7 +1,42 @@
-.InputSection__container {
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 10pt;
+  border-radius: 0.3cm;
+  padding: 0.5cm;
+}
+
+.input {
+  min-width: 400px;
+  border: solid 1px gray;
+  border-radius: 0.3cm;
+  padding: 0.5cm;
+  margin: 0.5cm;
+  font-size: 10pt;
+}
+
+
+.inputSection__container {
   width: 750px;
   display: flex;
   align-items: center;
   flex-direction: column;
   background-color:rgb(95,98,100);
+}
+  
+
+.inputSection_container_btnWrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5cm;
+}
+
+.textarea {
+  min-width: 400px;
+  border: solid 1px gray;
+  border-radius: 0.3cm;
+  padding: 0.5cm;
+  margin: 0.5cm;
+  font-size: 10pt;
 }
