@@ -5,7 +5,6 @@ import inputActions from '../redux/actions/inputActions';
 import './InputSection.style.css';
 
 const InputSection = () => {
-  
   const id = useSelector(state => state.inputs.id);
   const title = useSelector(state => state.inputs.title);
   const content = useSelector(state => state.inputs.content);
@@ -36,8 +35,8 @@ const InputSection = () => {
   }
 
   return (
-    <div className="inputSection__container">
-       <h2>Your note</h2>
+    <div className="inputSection_container">
+      <h2>Your note</h2>
       <input
         className="input"
         type="text"
@@ -56,7 +55,7 @@ const InputSection = () => {
         }
       ></textarea>
       <div
-        className="inputSection_container_btnWrapper"
+        className="InputSection_container_btnWrapper"
       >
         <button
           className="button"

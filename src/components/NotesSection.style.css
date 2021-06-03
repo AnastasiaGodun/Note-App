@@ -1,4 +1,4 @@
-.NotesSection__container {
+.notesSection__container {
   height: 100%;
   width: 250px;
   background-color: rgb(65, 62, 62);
@@ -6,5 +6,23 @@
  display: flex;
  align-items: center;
  flex-direction: column;
+}
 
+.notesSection__container__empty {
+  height: 100%;
+  width: 250px;
+  background-color: rgb(65, 62, 62);
+  border-right: 1px solid rgb(65, 62, 62);
+}
+
+
+.notesSection_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.notesSection_notes {
+  height: calc(100vh - 78px);
+  overflow-y: scroll;
 }
